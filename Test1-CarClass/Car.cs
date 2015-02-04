@@ -32,18 +32,18 @@ namespace Test1_CarClass
         //Public Methods  +++++++++++++++++++++++++++++++++
         public void drive()
          {
-            Console.WriteLine("The car is Driving");
+            Console.WriteLine("\t The car is Driving");
          }
 
         public void show()
         {
 
-            Console.WriteLine(" ********************* ");
-            Console.WriteLine(" Car Make : {0}", this.Make);
-            Console.WriteLine(" Car Model : {0}", this.Model);
-            Console.WriteLine(" Car Year : {0}", this.Year);
-            Console.WriteLine("Car Colour : {0}", this.Colour);
-            Console.WriteLine(" ********************* ");
+            Console.WriteLine(" \t******************** ");
+            Console.WriteLine(" \t* Car Make : {0}   *", this.Make);
+            Console.WriteLine(" \t* Car Model : {0}*", this.Model);
+            Console.WriteLine(" \t* Car Year : {0}  *", this.Year);
+            Console.WriteLine(" \t* Car Colour : {0} *", this.Colour);
+            Console.WriteLine(" \t******************** ");
         }
     }
 }
